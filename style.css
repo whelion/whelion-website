@@ -4,20 +4,36 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    background: #f9f9f9;
-    color: #333;
+    background: #ffffff;
+    color: #000000;
     scroll-behavior: smooth;
+    background:url(main2.jpg) center/cover no-repeat; 
+  }
+ 
+  .colorset {
+    position: relative;
+    background: url(green.jpg) center/cover no-repeat;
+    margin: 15px 88px;
+    border-radius: 12px;
+    overflow: hidden;
+  
+  }
+  
+  
+  
+  .topheading{
+    color: #ffffff;
   }
   
   header {
-    background: #ffffff;
+    background:black;
     padding: 20px;
     text-align: center;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    box-shadow: 0 2px 10px rgb(255, 255, 255);
   }
   
   nav a {
-    color: #0077cc;
+    color: #ffd0d0;
     margin: 0 15px;
     text-decoration: none;
     font-weight: 500;
@@ -28,7 +44,12 @@ body {
     color: white;
     padding: 100px 20px;
     text-align: center;
+    border-radius: 16px;
+    border: 2px solid black;
+    
+    
   }
+
   
   .hero-text {
     background: rgba(0,0,0,0.6);
@@ -47,15 +68,17 @@ body {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    border: #000000;
+    border-radius: 0%;
   }
   
   .service {
-    background: #fff;
+    background: black;
     padding: 20px;
     flex: 1;
     min-width: 250px;
     border-radius: 12px;
-    box-shadow: 0 0 12px rgba(0,0,0,0.05);
+    box-shadow: 0 0 12px rgb(255, 255, 255);
     transition: transform 0.3s ease;
   }
   
@@ -65,15 +88,16 @@ body {
   
   .webdev {
     background: url('https://images.unsplash.com/photo-1537432376769-00a64f3b29ae') center/cover;
-    color: white;
+    color: rgb(255, 255, 255);
     text-shadow: 1px 1px 3px black;
+    
   }
   
   form {
-    background: white;
-    padding: 25px;
+    background: rgb(249, 242, 227);
+    padding: 25px 50px;
     border-radius: 12px;
-    box-shadow: 0 0 12px rgba(0,0,0,0.1);
+    box-shadow: 0 0 12px rgb(255, 255, 255);
   }
   
   input, textarea {
@@ -81,19 +105,19 @@ body {
     padding: 12px;
     margin: 12px 0;
     font-size: 16px;
-    border: 1px solid #ccc;
+    border: 1px solid #000000;
     border-radius: 8px;
   }
   
   button {
     padding: 14px 22px;
     background: #0077cc;
-    color: white;
+    color: black;
     border: none;
     border-radius: 8px;
     font-size: 16px;
     cursor: pointer;
-    transition: background 0.3s;
+    transition: background 0.5s;
   }
   
   button:hover {
@@ -111,5 +135,55 @@ body {
   @keyframes fadeIn {
     from { opacity: 0; transform: translateY(20px);}
     to { opacity: 1; transform: translateY(0);}
+  }
+  
+  
+  
+  .service-boxes {
+    display: flex;
+    gap: 20px;
+    align-items: stretch; /* makes all children the same height */
+  }
+  .service-webdev {
+    background: url('service.jpg') center/cover no-repeat;
+    color: black; /* change text color to black */
+    text-shadow: none; /* remove the white text shadow */
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 16px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    height: 100%;
+    flex: 1;
+    min-width: 300px;
+    background-blend-mode: lighten; /* helps the background stay soft */
+    background-color: rgba(255, 255, 255, 0.17); /* optional: lightens background */
+    
+  }
+  .portfolio-box {
+    background: url('https://images.unsplash.com/photo-1508780709619-79562169bc64') center/cover no-repeat;
+    color: black;
+    text-shadow: 1px 1px 3px white;
+    padding: 25px;
+    border: 2px solid black;
+    border-radius: 16px;
+    box-shadow: 0 0 12px rgb(0, 0, 0);
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    background-blend-mode: lighten;
+  }
+  .topheading{
+    font-size: 40px;
+  }
+  .os{
+    font-family:cursive;
+    font-size: 30px; 
+  }
+  .port{
+    font-family:cursive;
+    font-size: 30px; 
+  }
+  .bookcall{
+    font-family:cursive;
+    font-size: 30px; 
   }
   
