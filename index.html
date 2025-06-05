@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html>Add commentMore actions
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -6,22 +6,28 @@
   <title>Whelion - Modern Web Agency</title>
   <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
-   
+    <!-- Navbar -->
     
-
-<!-- Responsive Navbar -->
 <nav class="navbar">
+    <div class="logo">Whelion</div>
+    <ul class="nav-links">
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <nav class="navbar">
   <div class="logo">Whelion</div>
-  <div class="hamburger" onclick="toggleMenu()">☰</div>
-  <ul class="nav-links" id="navLinks">
+  <ul class="nav-links">
     <li><a href="#hero">Home</a></li>
     <li><a href="#services">Services</a></li>
     <li><a href="#portfolio">Portfolio</a></li>
     <li><a href="#contact">Contact</a></li>
   </ul>
 </nav>
+
 
   
 
@@ -59,7 +65,15 @@
   <section class="portfolio" id="portfolio">
     <h2>Our Work</h2>
     <div class="portfolio-grid">
-      <div class="portfolio-item">Project 1</div>
+      
+      <div class="portfolio-item">
+
+        <a href="https://gym-fitness-demo.netlify.app" target="_blank" style="text-decoration: none; color: inherit;">
+
+          Project 1
+        </a>
+   </div>
+
       <div class="portfolio-item">Project 2</div>
       <div class="portfolio-item">Project 3</div>
     </div>
@@ -81,13 +95,6 @@
   <footer>
     <p>© 2025 Whelion Agency. All rights reserved.</p>
   </footer>
-  
-  <script>
-    function toggleMenu() {
-      const nav = document.getElementById("navLinks");
-      nav.classList.toggle("active");
-    }
-  </script>
-  
+
 </body>
 </html>
