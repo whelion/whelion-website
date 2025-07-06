@@ -173,16 +173,26 @@
 
   <!-- CONTACT SECTION -->
   <section class="contact" id="contact">
-    <div class="container">
-      <h2>Let’s Build Something Great</h2>
-      <form class="contact-form">
-        <input type="text" placeholder="Your Name" required>
-        <input type="email" placeholder="Your Email" required>
-        <textarea rows="5" placeholder="Your Message"></textarea>
-        <button type="submit">Send Message</button>
-      </form>
-    </div>
-  </section>
+  <div class="container">
+    <h2>Let’s Build Something Great</h2>
+    <form class="contact-form" action="https://formsubmit.co/whelionagency@gmail.com" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+
+      <!-- Optional hidden fields -->
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_template" value="table">
+      <input type="hidden" name="_autoresponse" value="Thank you for contacting Whelion Agency! We’ll get back to you soon.">
+
+      <!-- Optional redirect after form submission -->
+      <!-- <input type="hidden" name="_next" value="https://whelion.github.io/whelion-website/thankyou.html"> -->
+
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+</section>
+
 
   <!-- FOOTER -->
   <footer>
