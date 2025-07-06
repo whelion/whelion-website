@@ -44,3 +44,8 @@ function startSlideshow() {
 // Initial
 showSlide(currentSlide);
 setInterval(startSlideshow, 5000); // change every 5 seconds
+
+  function toggleMenu() {
+    const nav = document.getElementById("navLinks");
+    nav.classList.toggle("open");
+  }
