@@ -1,100 +1,202 @@
-<!DOCTYPE html>Add commentMore actions
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Whelion - Modern Web Agency</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Whelion — AI-Powered Web Agency</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <!-- Navbar -->
-    
-<nav class="navbar">
-    <div class="logo">Whelion</div>
+
+  <!-- HERO SECTION -->
+<section class="hero">
+  <!-- Slideshow Background -->
+  <div class="slideshow-container">
+    <img class="slide active" src="assets/imgn1.jpg" alt="">
+    <img class="slide" src="assets/imgn2.jpg" alt="">
+    <img class="slide" src="assets/img2.jpg" alt="">
+  </div>
+
+  <!-- Optional dark overlay -->
+  <div class="overlay-bg"></div>
+
+  <!-- Fixed Navbar -->
+  <header class="navbar">
+    <div class="logo-container">
+      <div class="logo"></div>
+      <span class="logo-text">Whelion</span>
+    </div>
     <ul class="nav-links">
-      <li><a href="#hero">Home</a></li>
       <li><a href="#services">Services</a></li>
       <li><a href="#portfolio">Portfolio</a></li>
       <li><a href="#contact">Contact</a></li>
+      <li><a href="#about">About Us</a></li>
+      <li><a href="#faq">FAQ</a></li>
     </ul>
-  </nav>
-  <nav class="navbar">
-  <div class="logo">Whelion</div>
-  <ul class="nav-links">
-    <li><a href="#hero">Home</a></li>
-    <li><a href="#services">Services</a></li>
-    <li><a href="#portfolio">Portfolio</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ul>
-</nav>
-
-
-  
-
-  
-
-  <!-- Hero Section -->
-  
-
-  <header class="hero" id="hero">
-    <div class="hero-overlay">
-      <h1>Whelion</h1>
-      <p>We build modern, high-conversion websites for your business success.</p>
-      <a href="#contact" class="btn">Get Your Free Quote</a>
-    </div>
   </header>
 
-  <!-- Services Section -->
-  <div class="section-divider"></div>
-
-  <section class="services" id="services">
-    <h2>Our Services</h2>
-    <div class="service-grid">
-      <div class="card">Landing Pages</div>
-      <div class="card">Full Websites</div>
-      <div class="card">Portfolio Sites</div>
-      <div class="card">Fitness Websites</div>
-      <div class="card">Clothing Design Sites</div>
-      <div class="card">Coaching Sites</div>
-    </div>
-  </section>
-
-  <!-- Portfolio Section -->
-  <div class="section-divider"></div>
-
-  <section class="portfolio" id="portfolio">
-    <h2>Our Work</h2>
-    <div class="portfolio-grid">
-      
-      <div class="portfolio-item">
-
-        <a href="https://gym-fitness-demo.netlify.app" target="_blank" style="text-decoration: none; color: inherit;">
-
-          Gym website demo
-        </a>
-   </div>
-
-      <div class="portfolio-item">Project 2</div>
-      <div class="portfolio-item">Project 3</div>
-    </div>
-  </section>
-
-  <!-- Contact Section -->
-  <div class="section-divider"></div>
-
-  <section class="contact" id="contact">
-  <div class="box">
-    <h2>Ready to Start?</h2>
-    <p>Contact us to get your custom website built.</p>
-    <a href="mailto:whelionagency@gmail.com" class="btn">Email Us</a>
+  <!-- Hero Text -->
+  <div class="hero-content">
+    <h1>Turn visitors into customers with a stunning, professional website</h1>
+    <p>We design intelligent, fast, and visually striking websites to elevate your online presence.</p>
+    <a href="#contact" class="cta-btn">Get Free Demo</a>
   </div>
+</section>
+
+  <!--ABout Us-->
+
+  <section class="about-container" id="about">
+  <div class="about-wrapper">
+    <div class="about-image">
+      <img src="assets/img1.jpg" alt="About Image" />
+    </div>
+    <div class="about-text">
+      <h2>About Us</h2>
+      <p>
+        At <strong>Whelion</strong>, we’re a creative digital team that builds fast, modern, and fully customized websites for brands across every industry.
+        <br><br>
+        We help startups, coaches, and businesses launch a strong online presence — so they can focus on growing while we handle the tech. Whether you need a powerful e-commerce platform, a bold portfolio, or a custom landing page — we’re here to build it from scratch.
+      </p>
+    </div>
+  </div>
+</section>
+
+  <!-- SERVICES SECTION -->
+
+<section class="services container" id="services">
+  <h2>Our Services</h2>
+  <div class="service-grid">
+
+    <div class="service-card">
+      <i class="fas fa-shopping-cart"></i>
+      <h3>E-Commerce</h3>
+      <p>Launch or scale your online store with sleek, secure, and user-friendly websites built to convert.</p>
+    </div>
+
+    <div class="service-card">
+      <i class="fas fa-dumbbell"></i>
+      <h3>Fitness<br>& Gym</h3>
+      <p>Get a powerful gym website with class schedules, forms, and booking tools — all designed to grow your brand.</p>
+    </div>
+
+    <div class="service-card">
+      <i class="fas fa-chalkboard-teacher"></i>
+      <h3>Coaching</h3>
+      <p>Sell courses, take bookings, and build your brand with a custom-built coaching or education website.</p>
+    </div>
+
+    <div class="service-card">
+      <i class="fas fa-briefcase"></i>
+      <h3>Portfolio</h3>
+      <p>Showcase your work professionally with a stunning portfolio site designed to impress and attract clients.</p>
+    </div>
+
+    <div class="service-card">
+      <i class="fas fa-sliders-h"></i>
+      <h3>Fully<br>Customisable</h3>
+      <p>From colors to layout to animations — everything is built to reflect your unique style and goals.</p>
+    </div>
+
+    <div class="service-card">
+      <i class="fas fa-server"></i>
+      <h3>Hosting</h3>
+      <p>We offer fast, secure hosting and domain support so your site stays online, loads fast, and stays protected.</p>
+    </div>
+
+  </div>
+</section>
+
+
+  <!-- PORTFOLIO SECTION -->
+  <section class="portfolio" id="portfolio">
+    <div class="container">
+      <h2>Recent Projects</h2>
+      <div class="portfolio-grid">
+        
+        <div class="portfolio-item">
+          <img src="assets/img5.jpg" alt="Project 1">
+          
+          <div class="overlay">
+            <h3>E-Commerce</h3>
+            <p>Minimalist eCommerce store with Stripe integration.</p>
+          </div>
+        </div>
+        <div class="portfolio-item">
+          <img src="assets/img3.jpg" alt="Project 2">
+          <div class="overlay">
+            <h3>Fitness Coaching Site</h3>
+            <p>High-converting design with booking system.</p>
+          </div>
+        </div>
+        <div class="portfolio-item">
+          <img src="assets/img4.jpg" alt="Project 3">
+          <div class="overlay">
+            <h3>Clothing Brand</h3>
+            <p>Designed with Web3 aesthetics and animations.</p>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 
-  <div class="section-divider"></div>
 
+  <!--FAQs SECTION-->
+  <section class="faq container" id="faq">
+  <h2>FAQs</h2>
+
+  <div class="faq-item">
+    <button class="faq-question">How long does it take to build a website?</button>
+    <div class="faq-answer">Typically between 3–7 days depending on complexity and feedback speed.</div>
+  </div>
+
+  <div class="faq-item">
+    <button class="faq-question">Do you provide domain & hosting?</button>
+    <div class="faq-answer">Yes, we guide you through domain purchase and set up fast, secure hosting for your website.</div>
+  </div>
+
+  <div class="faq-item">
+    <button class="faq-question">Will my website work on mobile?</button>
+    <div class="faq-answer">Absolutely. All our websites are fully responsive and mobile-friendly.</div>
+  </div>
+
+  <div class="faq-item">
+    <button class="faq-question">Can I request changes after delivery?</button>
+    <div class="faq-answer">Yes! We offer post-delivery support and revisions for all our clients.</div>
+  </div>
+</section>
+
+
+  <!-- CONTACT SECTION -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <h2>Let’s Build Something Great</h2>
+      <form class="contact-form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea rows="5" placeholder="Your Message"></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
   <footer>
-    <p>© 2025 Whelion Agency. All rights reserved.</p>
+    <div class="container">
+      <p>&copy; 2025 Whelion Agency. All rights reserved.</p>
+      <div class="socials">
+        <a href="https://www.instagram.com/whelion_digital?igsh=Mmp4N3ZvejhwOXdj"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/whelion-agency-b45847339?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.facebook.com/profile.php?id=61571849233055&mibextid=ZbWKwL"><i class="fab fa-facebook"></i></a>
+      </div>
+    </div>
   </footer>
 
+  <script src="script.js"></script>
 </body>
+
 </html>
