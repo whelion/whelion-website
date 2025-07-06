@@ -1074,3 +1074,110 @@ html, body {
     font-size: 1.2rem;
   }
 }
+/* Add this section at the very end of your style.css */
+
+@media (max-width: 768px) {
+  /* Navbar */
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 1rem;
+    width: 100%;
+  }
+
+  .nav-links li {
+    width: 100%;
+  }
+
+  .nav-links a {
+    display: block;
+    width: 100%;
+    padding: 0.75rem 1rem;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 6px;
+  }
+
+  .logo-container {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  /* Hero */
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+
+  .hero-content p {
+    font-size: 1rem;
+  }
+
+  .cta-btn {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+  }
+
+  /* About Section */
+  .about-wrapper {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-image img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Services */
+  .service-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .service-card {
+    max-width: 100%;
+  }
+
+  /* Portfolio */
+  .portfolio-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .portfolio-item img {
+    height: auto;
+  }
+
+  /* Contact */
+  .contact-form {
+    width: 100%;
+    padding: 0 1rem;
+  }
+
+  /* FAQ */
+  .faq-item {
+    padding: 1rem;
+  }
+
+  .faq-question {
+    font-size: 1rem;
+  }
+
+  .faq-answer {
+    font-size: 0.9rem;
+  }
+
+  /* Footer */
+  footer {
+    padding: 1.5rem 1rem;
+  }
+
+  .logo-text {
+    font-size: 1.2rem;
+  }
+}
